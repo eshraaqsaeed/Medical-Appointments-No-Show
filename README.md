@@ -34,5 +34,3 @@ This project was implemented during the Udacity FWD Data Analysis Nanodegree Pro
 
 #### Distribution of Dependent Variable (No_Show)
 
-
-### Q1: Which certain gender show more commitment to their medical appointment that the other?
