@@ -12,6 +12,19 @@ This project was implemented during the Udacity FWD Data Analysis Nanodegree Pro
 - Q6: Duration between scheduling and appointment days, in terms of: minimum, maximum, etc..?
 
 
+## Data Cleaning
+
+The dataset didn't require much handeling, as no missing values, nor duplicates, etc.. were found.
+
+Some minor issues was detected:
+- Issue 1: Some column names needs handling -> re-formated for neat and easy work
+- Issue 2: Data types of some attribute
+    - Patient_ID is float -> converted to string
+    - Appointment_ID is int -> converted to string
+    - ScheduledDay and AppointmentDay are strings -> converted to datetime format
+- Issue 3: Age attribute has negative values
+
+
 ## Exploratory Data Analysis
 
 
@@ -58,7 +71,7 @@ This project was implemented during the Udacity FWD Data Analysis Nanodegree Pro
   | **No-Show/Scholarship**      | **No**      | **Yes**      |
   |------------|-------------|-------------|
   | **0** | 0.801926 | 0.198074 |
-  | **2** | 0.762637 | 0.237363 |
+  | **1** | 0.762637 | 0.237363 |
 
 **Patients with schoalrship:**
 - Around 80% of these patients attend their appointment
@@ -70,6 +83,37 @@ This project was implemented during the Udacity FWD Data Analysis Nanodegree Pro
 - Around 23% of them didn't show up
 
 ### *Q4*: Does patient's disease affect their decision to appear to the appointment?
+
+- **Diabetes**:
+> 7.18% of patients have diabetes
+
+- Cross tabulation of diabetic/non-diabetic against No-Show variable
+
+  | **No-Show/Diabetes**      | **No**      | **Yes**      |
+  |------------|-------------|-------------|
+  | **0** | 0.796370 | 0.203630 |
+  | **1** | 0.819967 | 0.180033 |
+
+- **Hypertension**:
+> 19.7% of patients have hypertension
+
+- Cross tabulation of patients with/without hypertension
+
+  | **No-Show/Hypertension**      | **No**      | **Yes**      |
+  |------------|-------------|-------------|
+  | **0** | 0.790961 | 0.209039 |
+  | **1** | 0.826980 | 0.173020 |
+
+- **Alcoholism**:
+> 3% of patients are alcohol addicts
+
+- Cross tabulation of patients addicted/un-addicted to alcohol
+
+  | **No-Show/Alcoholism**      | **No**      | **Yes**      |
+  |------------|-------------|-------------|
+  | **0** | 0.798052 | 0.201948 |
+  | **1** | 0.798512 | 0.201488 |
+
 ### *Q5*: Most requent neighborhood, and day for appointments and scheduling?
 
 - Dataset contained 81 different neighbourhoods
