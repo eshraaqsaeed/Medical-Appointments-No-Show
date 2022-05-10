@@ -3,6 +3,8 @@ This project was implemented during the Udacity FWD Data Analysis Nanodegree Pro
 
 ## Project Outlines:
 
+A person makes a doctor appointment, receives all the instructions and no-show. Who to blame?
+
 ###  Investigation questions:
 - Q1: Which certain gender show more commitment to their medical appointment that the other?
 - Q2: Does patient's age correlate with them showing up to the appointment?
