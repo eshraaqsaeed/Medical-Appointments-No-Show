@@ -30,10 +30,10 @@ Some minor issues was detected:
 
 #### Distribution of Dependent Variable (No_Show)
 
-- With counts:
+- With counts
 ![no-show_distribution](https://user-images.githubusercontent.com/82108743/167433487-b6c55ef9-d20c-4825-a818-29b388fb6bfd.png)
 
-- With percentages:
+- With percentages
 ![show_to_no-show_ratio](https://user-images.githubusercontent.com/82108743/167433835-00db44e0-ec92-44d8-b4ba-735619338356.png)
 
 
@@ -57,10 +57,12 @@ Some minor issues was detected:
 ### *Q2*: Does patient's age correlate with them showing up to the appointment?
 
 - Age distribution
-![age_distribution](https://user-images.githubusercontent.com/82108743/167435787-4717ae54-06a2-49a7-bd2e-7beb938a0d0d.png)
+![age_distribution](https://user-images.githubusercontent.com/82108743/167612249-2f849312-978f-45ee-b4c6-eb7190b0bb49.png)
+
 
 - Age & Appointment commitment distribution
-![age_no-show_correlation](https://user-images.githubusercontent.com/82108743/167435916-40f6531a-4d1e-4cc2-9848-f5fcd0b0e28d.png)
+![age_no-show_correlation](https://user-images.githubusercontent.com/82108743/167612335-fe934207-067e-4c20-a194-f03ff4ccae68.png)
+
 
 ### *Q3*: Does the patient's Scholarship availability affect their decision to attend their medical appointment?
 
@@ -118,14 +120,15 @@ Some minor issues was detected:
 
 - Dataset contained 81 different neighbourhoods
 - The top 3 frequent neighbourhoods in appointments and scheduling:
-![top3_neigh](https://user-images.githubusercontent.com/82108743/167437137-1b4c7c89-bf8e-4067-9553-c22c6ca60709.png)
+- ![top3_neigh](https://user-images.githubusercontent.com/82108743/167437137-1b4c7c89-bf8e-4067-9553-c22c6ca60709.png)
 
-> #### Most frequent day for appointment and scheduling:
+#### Most frequent day for appointment and scheduling:
 ![most_freq_days](https://user-images.githubusercontent.com/82108743/167437371-cbe60368-dd6d-4447-9d3a-3b9c29ee83bb.png)
 
 > Most frequent day for scheduling is **Tuseday**
 
 ![most_frew_days_appoint](https://user-images.githubusercontent.com/82108743/167437340-e65e2ead-53b8-419b-bf3f-31ebb7c9d8c4.png)
+
 > Most frequent for appointments is **Wednesday**
 
 We can also detect that **Saturday** is the least frequent day for both scheduling and appointments.
@@ -149,7 +152,7 @@ Now lets see if patients who get immediate scheduling commit to their appointmen
 
 We can finally say that, the average waiting time for patients to get their appointments is 10 days, 4 hours, and 24 minutes.
 
-## Conclusions:
+## Conclusion:
 
 #### After performing the analysis, few exsiting insights were learned!
 
